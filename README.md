@@ -1,7 +1,7 @@
 # Basic Git commands 
-1> git pull --> to pull latest changes from the main branch in remote repo.
-2> git push--> to push the changes into the remote repo.
-3> git fetch ---> to check the latest changes in the remote repo.
+1> git pull --> to pull latest changes from the main branch in remote repo\
+2> git push--> to push the changes into the remote repo\
+3> git fetch ---> to check the latest changes in the remote repo
 
 ### difference between git fetch and git pull: 
 git pull check the latest changes and also pull the latest changes in my system and git fetch only check the latest changes in remote repo.
