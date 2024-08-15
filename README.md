@@ -30,17 +30,17 @@ git branch -r ---> to list all the branches in remote repo\
 git branch -a --> to list all the branches in local and remote 
 
 ## to delete the branch
-git branch -d branchName --> to delete branch locally\ 
-git branch -D branchName ---> to delete branch forcefully in local\ 
+git branch -d branchName --> to delete branch locally <br  />
+git branch -D branchName ---> to delete branch forcefully in local <br  /> 
 git push origin --delete branchName
 
 ## status 
 git status ---> tells about current branch , and about the stagging area. 
 
 ## fetch commands :
-git fetch originName 
-git fetch --all --> to fetch all changes from remote\
-git fetch --tags --> to fetch the details from particular tags\ 
+git fetch originName <br />
+git fetch --all --> to fetch all changes from remote <br  />
+git fetch --tags --> to fetch the details from particular tags <br  />
 git fetch --prune --> if branch is delete from remote repo then to delete it from local repo 
 
 ## pull command 
