@@ -1,6 +1,6 @@
 # Basic Git commands 
 1> git pull --> to pull latest changes from the main branch in remote repo.
-2> git push--> to push the changes into the remote repo .
+2> git push--> to push the changes into the remote repo.
 3> git fetch ---> to check the latest changes in the remote repo.
 
 ### difference between git fetch and git pull: 
@@ -46,12 +46,12 @@ git fetch --prune --> if branch is delete from remote repo then to delete it fro
 ## pull command 
 git pull is combination of two commands git fetch+ git merge. 
 By default git pull perform merge , but explicitly you will tell to perform rebase git pull --rebase 
-<br>
+<br/>
 git pull <remote-name> --> If want to pull from specific remote but not from default remote. 
 git pull <remote-name> <branch-name>
-<br>
+<br/>
 pull and discard local changes: git reset ~Hard and git pull <remote-name> <branch-name> 
-<br>
+<br/>
 
 ## init 
 git init --> It is used to create the git repository in current directry. 
@@ -68,7 +68,7 @@ git add -p --> to add changes interactively in stagging area , you have an optio
 
 ## commit command 
 git commit -m " message " 
-<br>
+<br/>
 git commit -m " message1" -m  " message2 " --> multiline commits. 
 git commit --> then editor open you have to write message there. 
 git commit --amend --> to change the last commit messages and add files (it will open editor). 
@@ -105,15 +105,15 @@ git checkout <commit> -- <file>  ---> To revert changes in a specific file from 
 
 ## to Delete commits from remote repository : 
 1> Use reset command : 
-<br>
+<br/>
 Step1: git reset --hard Head~1
-<br>
+<br/>
 Step2: git push origin branchName --force 
-<br>
+<br/>
 2> Use revert command : 
-<br>
+<br/>
 Step1: git revert <commit-hash>
-<br>
+<br/>
 Step2: git push origin branchName
 
 ## stash 
@@ -122,7 +122,7 @@ Step2: git push origin branchName
 3> To list all stash --> git stash list. 
 4> to apply latest stash --> git stash apply.
 5> to apply particular indexed stash ---> git stash apply stash@{n}
-<br>
+<br/>
 6> git stash pop  --> To apply the most recent stash and then remove it from the stash list.
 7> git stash clear --> to remove all stashes. 
 8> git stash drop stash@{n}  -> To remove specific stash from list 
