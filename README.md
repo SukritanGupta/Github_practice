@@ -77,14 +77,14 @@ git commit -a -m "message" --> to commit all the git tracked files changes
 ## log 
 1. git log ---> to see all the commits
 <br />
-2. git log --oneline --> to see only the headings of commit\ 
-3. git log -n number ---> to see limit  number of commits\
-4. git log file-path --> to see git history of particular file\ 
-5. git log -p --> to see commits and changes due to that commit\ 
-6. git log --graph ---> to see graphical representation of commits history\ 
-7. git log --graph --oneline --all  --> to see branch detail and merge info too\
-8. git log --author="Author Name"  ---> to see particular authors commits\
-9. git log --grep="keyword"  --> to search the commit according to particular keyword\ 
+2. git log --oneline --> to see only the headings of commit \ 
+3. git log -n number ---> to see limit  number of commits \
+4. git log file-path --> to see git history of particular file \ 
+5. git log -p --> to see commits and changes due to that commit \ 
+6. git log --graph ---> to see graphical representation of commits history \ 
+7. git log --graph --oneline --all  --> to see branch detail and merge info too \
+8. git log --author="Author Name"  ---> to see particular authors commits \
+9. git log --grep="keyword"  --> to search the commit according to particular keyword \ 
 10. git log --since="YYYY-MM-DD" --until="YYYY-MM-DD"   --> to see the commits in between range 
 
 
