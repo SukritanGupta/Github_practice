@@ -75,16 +75,17 @@ git commit --amend --> to change the last commit messages and add files (it will
 git commit -a -m "message" --> to commit all the git tracked files changes
 
 ## log 
-git log ---> to see all the commits\ 
-git log --oneline --> to see only the headings of commit\ 
-git log -n number ---> to see limit  number of commits\
-git log file-path --> to see git history of particular file\ 
-git log -p --> to see commits and changes due to that commit\ 
-git log --graph ---> to see graphical representation of commits history\ 
-git log --graph --oneline --all  --> to see branch detail and merge info too\
-git log --author="Author Name"  ---> to see particular authors commits\
-git log --grep="keyword"  --> to search the commit according to particular keyword\ 
-git log --since="YYYY-MM-DD" --until="YYYY-MM-DD"   --> to see the commits in between range 
+1. git log ---> to see all the commits
+<br />
+2. git log --oneline --> to see only the headings of commit\ 
+3. git log -n number ---> to see limit  number of commits\
+4. git log file-path --> to see git history of particular file\ 
+5. git log -p --> to see commits and changes due to that commit\ 
+6. git log --graph ---> to see graphical representation of commits history\ 
+7. git log --graph --oneline --all  --> to see branch detail and merge info too\
+8. git log --author="Author Name"  ---> to see particular authors commits\
+9. git log --grep="keyword"  --> to search the commit according to particular keyword\ 
+10. git log --since="YYYY-MM-DD" --until="YYYY-MM-DD"   --> to see the commits in between range 
 
 
 ## to see hw many commits are your local that are not in main 
