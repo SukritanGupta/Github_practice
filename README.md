@@ -77,14 +77,14 @@ git commit -a -m "message" --> to commit all the git tracked files changes
 ## log 
 1. git log ---> to see all the commits
 <br />
-2. git log --oneline --> to see only the headings of commit \ 
-3. git log -n number ---> to see limit  number of commits \
-4. git log file-path --> to see git history of particular file \ 
-5. git log -p --> to see commits and changes due to that commit \ 
-6. git log --graph ---> to see graphical representation of commits history \ 
-7. git log --graph --oneline --all  --> to see branch detail and merge info too \
-8. git log --author="Author Name"  ---> to see particular authors commits \
-9. git log --grep="keyword"  --> to search the commit according to particular keyword \ 
+2. git log --oneline --> to see only the headings of commit <br />
+3. git log -n number ---> to see limit  number of commits <br />
+4. git log file-path --> to see git history of particular file <br /> 
+5. git log -p --> to see commits and changes due to that commit <br />
+6. git log --graph ---> to see graphical representation of commits history <br /> 
+7. git log --graph --oneline --all  --> to see branch detail and merge info too <br />
+8. git log --author="Author Name"  ---> to see particular authors commits <br />
+9. git log --grep="keyword"  --> to search the commit according to particular keyword <br /> 
 10. git log --since="YYYY-MM-DD" --until="YYYY-MM-DD"   --> to see the commits in between range 
 
 
@@ -100,9 +100,9 @@ for eg: git reset --keep HEAD~1
 git reset HEAD <file> --> incenditall stag file but want to unstag that file
 
 ## revert command 
-git revert <commit> This command creates a new commit that reverses the changes made in the commit with hash\ 
-git revert <oldest-commit>..<newest-commit>  --> In range you want to revert changes\
-git checkout <commit> -- <file>  ---> To revert changes in a specific file from a commit
+git revert <commit> -->This command creates a new commit that reverses the changes made in the commit with hash <br  />
+git revert <oldest-commit>..<newest-commit>  --> In range you want to revert changes\  <br />
+git checkout <commit> -- <file>  ---> To revert changes in a specific file from a commit <br />
 
 ## to Delete commits from remote repository : 
 1> Use reset command : 
