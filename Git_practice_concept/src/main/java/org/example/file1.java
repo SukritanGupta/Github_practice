@@ -5,5 +5,6 @@ public class file1 {
         System.out.println("Welcome to code world");
         System.out.println("Welcome to sukritan gupta world where ruchika is queeen");
         System.out.println("Sukritan");
+        System.out.println("I love you ruchika");
     }
 }
