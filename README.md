@@ -129,3 +129,14 @@ Step2: git push origin branchName
 8> git stash drop stash@{n}  -> To remove specific stash from list\
 9> git stash push -u --> to stash untracked files\ 
 10> git stash push -a ---. to stash ignored files\
+
+## merge 
+1> git merge branchName 
+
+## rebase 
+1> git fetch origin 
+<br />
+2> git rebase origin/main 
+
+## cherry pick 
+1> git cherry-pick commitId 
